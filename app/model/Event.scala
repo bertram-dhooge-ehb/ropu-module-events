@@ -2,13 +2,22 @@ package model
 import java.util.Calendar
 import java.text.SimpleDateFormat
 import java.text.DateFormat
+import java.sql.Timestamp
+import play.api.libs.json.Json
+import play.api.libs.json._
 
-class Event(var date: , var title: String, var description: String) {
-  val format = new SimpleDateFormat("dd-MM-yyyy")
+class Event(
+    var id: Int,
+    var date: Timestamp,
+    var title: String,
+    var description: String
+) {
+
   override def toString(): String =
-    format.format(date) + "::" + title + "::" + description
+    getDateFormatted() + "::" + title + "::" + description
 
-  def getDate(): String = {
-    return format.format(date.getTime())
+  def getDateFormatted(): String = {
+    val format = new SimpleDateFormat("dd-MM-yyyy")
+    return format.format(date)
   }
 }

@@ -425,3 +425,622 @@ INFO  skipping build import with status 'Requested'
 WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
 WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
 INFO  no build target: using presentation compiler with only scala-library
+INFO  time: initialize in 0.97s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\build.sbt
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 06, 2019 9:47:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+Dec 06, 2019 10:10:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 06, 2019 10:11:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 06, 2019 10:11:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.56s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\build.sbt
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+INFO  no build target: using presentation compiler with only scala-library
+Dec 06, 2019 10:17:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:55: error: identifier expected but var found
+  def createEvent(var event: Event) {
+                  ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+Dec 06, 2019 10:25:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 06, 2019 10:25:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 06, 2019 10:25:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\build.sbt
+INFO  skipping build import with status 'Requested'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:59: error: ) expected but ( found
+    statement.setString(1, event.id == null ? "NULL": id.toString())
+                                                                 ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:59: error: ) expected but ( found
+    statement.setString(1, event.id == null ? "NULL": id.toString())
+                                                                 ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:59: error: ) expected but ( found
+    statement.setString(1, event.id == null ? "NULL": event.id.toString())
+                                                                       ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:59: error: ) expected but ( found
+    statement.setString(1, event.id == null ? "NULL" : event.id.toString())
+                                                                        ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 06, 2019 11:31:41 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 06, 2019 11:31:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala:32: error: illegal start of simple expression
+  }
+  ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 06, 2019 12:29:34 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 06, 2019 12:29:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:298)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:272)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1929)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1986)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1826)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5636)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5780)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5346)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5639)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:453)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:357)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+Dec 06, 2019 12:29:34 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 06, 2019 12:29:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:298)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:272)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1929)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1986)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1826)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5636)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5780)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5346)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5639)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:453)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:357)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+Dec 06, 2019 12:29:37 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 06, 2019 12:29:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:298)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:272)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1929)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1986)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1826)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5636)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5780)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5346)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5639)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:453)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:357)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+Dec 06, 2019 12:29:38 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 06, 2019 12:29:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:298)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:272)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1929)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1986)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1826)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5636)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5780)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5346)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5639)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:453)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:357)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+Dec 06, 2019 12:29:38 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 06, 2019 12:29:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:298)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:272)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1929)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1924)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1986)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1826)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5636)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5780)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5346)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5639)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5716)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:453)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:357)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+Dec 06, 2019 12:30:52 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:453)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 06, 2019 12:30:54 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:453)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 06, 2019 12:30:54 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:453)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala:19: error: is not a valid refinement declaration
+      val eventSeq = Seq(
+      ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala:19: error: is not a valid refinement declaration
+      val eventSeq = Seq(
+      ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+Dec 06, 2019 12:44:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 06, 2019 1:01:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5472
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+Dec 06, 2019 1:05:00 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 06, 2019 1:05:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 06, 2019 1:11:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 06, 2019 1:11:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 06, 2019 1:11:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 06, 2019 1:14:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\AnyWriter.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\AnyWriter.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\AnyWriter.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\AnyWriter.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 06, 2019 1:17:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 06, 2019 1:17:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+Dec 06, 2019 1:19:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 06, 2019 1:20:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+INFO  shutting down Metals

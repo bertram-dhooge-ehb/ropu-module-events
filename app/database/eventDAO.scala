@@ -5,6 +5,8 @@ import scala.collection.mutable
 import java.sql.PreparedStatement
 import java.{util => ju}
 import java.text.SimpleDateFormat
+import java.sql.ResultSet
+import java.sql.Timestamp
 
 class EventDAO
     extends BaseDAO(
@@ -29,10 +31,10 @@ class EventDAO
     return events.toList
   }
 
-  def getEventById(id: String): Event = {
+  def getEventById(id: Int): Event = {
     var statement: PreparedStatement =
       connection.prepareStatement("SELECT * FROM events WHERE id = ?")
-    statement.setString(1, id)
+    statement.setString(1, id.toString())
     var resultSet = statement.executeQuery()
 
     if (!resultSet.isBeforeFirst()) {
@@ -40,62 +42,62 @@ class EventDAO
       return null
     }
 
-    var id = resultSet.getString("id")
-    var dateString = resultSet.getString("date")
+    resultSet.next()
+
     var title = resultSet.getString("title")
+    var date = resultSet.getTimestamp("date")
     val format = new SimpleDateFormat("dd-MM-yyyy")
     var description = resultSet.getString("description")
+    //ju.Calendar.getInstance(format.parse(dateString))
 
-    var date = ju.Calendar.getInstance(format.parse(dateString))
-
-    var createdEvent = java.awt.Event()
+    var createdEvent = new Event(id, date, title, description)
+    return createdEvent
   }
 
   def createEvent(event: Event) {
     var statement: PreparedStatement =
       connection.prepareStatement("INSERT INTO events  VALUES (NULL, ?, ?, ?) ")
-    statement.setString(1, event.getDate())
+    statement.setString(1, event.date.toString())
     statement.setString(2, event.title)
     statement.setString(3, event.description)
 
     statement.executeUpdate()
   }
-}
 
-/**
-  * A Scala JDBC connection example by Alvin Alexander,
-  * https://alvinalexander.com
-  */
-/* object ScalaJdbcConnectSelect {
+  def deleteEvent(id: Int) {
+    var statement: PreparedStatement =
+      connection.prepareStatement("DELETE FROM events WHERE id = ?")
+    statement.setString(1, id.toString())
+    var resultSet = statement.executeUpdate()
+  }
 
-    def main(args: Array[String]) {
-        // connect to the database named "mysql" on the localhost
-        val driver =  "com.mysql.jdbc.Driver"
-        val url = "jdbc:mysql://dt5.ehb.be:3306/1920JAVAADV014"
-        val username = "1920JAVAADV014"
-        val password = "92478351"
-
-        // Make connection with db
-        Class.forName(driver)
-        var connection:Connection = DriverManager.getConnection(url, username, password)
-
-        Array(java.awt.Event) events;
-
-         // create the statement, and run the select query
-        val statement = connection.createStatement()
-        statement.executeUpdate("CREATE TABLE IF NOT EXISTS events(date varchar(255))")
-        statement.executeUpdate("CREATE TABLE IF NOT EXISTS users(id varchar(255))")
-        /* val resultSet = statement.executeQuery("CREATE TABLE events(date varchar(255))") */
-        /* while ( resultSet.next() ) {
-            val host = resultSet.getString("host")
-            val user = resultSet.getString("user")
-            println("host, user = " + host + ", " + user)
-        }  */
-
-        var datum = Calendar.getInstance()
-        println(datum)
-
-        connection.close()
+  def updateEvent(
+      id: Int,
+      date: Timestamp = null,
+      title: String = null,
+      description: String = null
+  ) {
+    if (!(date == null && title == null && description == null)) {
+      var query = "UPDATE events SET "
+      if (date != null) {
+        query += "date = '" + date.toString()
+      }
+      if (title != null) {
+        if (date != null) {
+          query += "', "
+        }
+        query += "title = '" + title
+      }
+      if (description != null) {
+        if (date != null || title != null) {
+          query += "', "
+        }
+        query += "description = '" + description
+      }
+      query += "' WHERE id = " + id.toString()
+      var statement: PreparedStatement =
+        connection.prepareStatement(query)
+      statement.executeUpdate()
     }
-
-    } */
+  }
+}

@@ -9,6 +9,7 @@ scalaVersion := "2.13.1"
 
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "4.0.3" % Test
+//libraryDependencies += "net.liftweb" %% "lift-json" % "XXX"
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "org.ropu.controllers._"
