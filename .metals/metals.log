@@ -1,0 +1,427 @@
+INFO  time: initialize in 0.84s
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\project\plugins.sbt
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\build.sbt
+INFO  shutting down Metals
+INFO  time: initialize in 0.61s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\build.sbt
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\HomeController.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\HomeController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Events.scala
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/controllers/EventsController.scala in Array[String]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/controllers/EventsController.scala, 325, 325, 338)
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventsDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala
+Dec 05, 2019 1:55:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala' because it doesn't belong to a build target.
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/baseDAO.scala in Array[String]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/baseDAO.scala, 397, 397, 410)
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+Exception in thread "pool-1-thread-30" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:20)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionCancelChecker.isCancelled(MtagsEnrichments.scala:354)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1(FormattingProvider.scala:59)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1$adapted(FormattingProvider.scala:59)
+	at scala.Option.exists(Option.scala:376)
+	at scala.meta.internal.metals.FormattingProvider.isCancelled(FormattingProvider.scala:59)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1(FormattingProvider.scala:171)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1$adapted(FormattingProvider.scala:164)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+Dec 05, 2019 2:06:54 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 05, 2019 2:06:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala:11: error: . expected but \n\n found
+ */
+   ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala:11: error: . expected but \n\n found
+ */
+   ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala:11: error: . expected but \n\n found
+  */
+    ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 05, 2019 2:27:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\baseDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in List[<error>]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 369, 369, 375)
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in List[model.Event]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 369, 369, 380)
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+Dec 05, 2019 2:55:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 05, 2019 2:59:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala:26: error: unclosed string literal
+    Ok(views.html.main(<h1>Welcome to Play!</h1>"))
+                                                ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+Dec 05, 2019 3:09:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 05, 2019 3:09:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+Dec 05, 2019 3:10:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+Dec 05, 2019 3:14:06 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 05, 2019 3:14:06 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 05, 2019 3:14:06 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 05, 2019 3:14:07 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in List[String]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 387, 387, 399)
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 420, 428, 670)
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 420, 428, 448)
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 420, 428, 441)
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in scala.collection.mutable.ListBuffer[<error>]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 420, 428, 443)
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in scala.collection.mutable.ListBuffer[String]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 420, 428, 446)
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in scala.collection.mutable.ListBuffer[String]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 420, 428, 446)
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in scala.collection.mutable.ListBuffer[String]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 420, 428, 446)
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:28: error: identifier expected but var found
+  def createEvent(var event:Event){
+                  ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:28: error: identifier expected but var found
+  def createEvent(var event: Event){
+                  ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:28: error: identifier expected but var found
+  def createEvent(var event: Event){
+                  ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:29: error: identifier expected but var found
+    def createEvent(var event: Event){
+                    ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:29: error: identifier expected but var found
+    def createEvent(var event: Event){
+                    ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+something's wrong: no file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala in scala.collection.mutable.ListBuffer[String]RangePosition(file:///c%3A/Users/bertr/TI/ropu/ropu-module-events/events-module/app/database/eventDAO.scala, 474, 482, 500)
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala' because it doesn't belong to a build target.
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala' because it doesn't belong to a build target.
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala:12: error: illegal start of declaration (possible cause: missing `=' in front of current method body)
+        return format.format(date)
+        ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+Dec 05, 2019 3:58:03 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 05, 2019 3:58:03 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 05, 2019 3:58:03 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:35: error: identifier expected but ) found
+        if (resultSet.){
+                      ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala:39: error: illegal start of simple expression
+    }
+    ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+Dec 05, 2019 4:10:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+Dec 05, 2019 4:11:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala:6: error: identifier expected but , found
+class Event(var date: , var title: String, var description: String) {
+                      ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+ERROR scalafmt: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala:6: error: identifier expected but , found
+class Event(var date: , var title: String, var description: String) {
+                      ^
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
+INFO  time: initialize in 0.66s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\database\eventDAO.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
+INFO  no build target: using presentation compiler with only scala-library
