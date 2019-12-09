@@ -83,31 +83,31 @@ class EventDAO
 
     var event = getEventById(id.toInt)
 
-    if (date != null && event.getDateFormatted() != date && LocalDate.parse(
-          date,
-          DateTimeFormatter.ofPattern("dd-MM-yyyy")
-        ) != null) {
-      event.date = Timestamp.valueOf(
-        LocalDate
-          .parse(date, DateTimeFormatter.ofPattern("dd-MM-yyyy"))
-          .atStartOfDay()
-      )
-    }
-    if (title != null && event.title != title) {
-      event.title = title
-    }
-    if (description != null && event.description != description) {
-      event.description = description
-    }
+    if (event != null) {
+      if (date != null && event.getDateFormatted() != date && LocalDate.parse(
+            date,
+            DateTimeFormatter.ofPattern("dd-MM-yyyy")
+          ) != null) {
+        event.date = Timestamp.valueOf(
+          LocalDate
+            .parse(date, DateTimeFormatter.ofPattern("dd-MM-yyyy"))
+            .atStartOfDay()
+        )
+      }
+      if (title != null && event.title != title)
+        event.title = title
+      if (description != null && event.description != description) {
+        event.description = description
+      }
 
-    var query =
-      "UPDATE events SET date = ?, title = ?, description = ? WHERE id = ?"
-    var statement: PreparedStatement = connection.prepareStatement(query)
-    statement.setString(1, event.getDateFormatted())
-    statement.setString(2, event.title)
-    statement.setString(3, event.description)
-    statement.setString(4, event.id.toString())
-
+      var query =
+        "UPDATE events SET date = ?, title = ?, description = ? WHERE id = ?"
+      var statement: PreparedStatement = connection.prepareStatement(query)
+      statement.setString(1, event.getDateFormatted())
+      statement.setString(2, event.title)
+      statement.setString(3, event.description)
+      statement.setString(4, event.id.toString())
+    }
     return event
   }
 }

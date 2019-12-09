@@ -82,16 +82,16 @@ class EventsController @Inject()(cc: ControllerComponents)
           result += i
         }
 
-      eventDAOInstance.updateEvent(
-        if (result.contains("id")) result("id") else null,
-        if (result.contains("date")) result("date") else null,
-        if (result.contains("title")) result("title") else null,
-        if (result.contains("description")) result("description") else null
-      )
-      Ok(Json.toJson(result))
-    } else {
-      Ok("test failed")
+      if (eventDAOInstance.updateEvent(
+            if (result.contains("id")) result("id") else null,
+            if (result.contains("date")) result("date") else null,
+            if (result.contains("title")) result("title") else null,
+            if (result.contains("description")) result("description") else null
+          ) != null) {
+        Ok(Json.toJson(result))
+      }
     }
+    Ok("test failed")
 
     /* var updatedEvent =
       eventDAOInstance.updateEvent(id, date, title, description)
