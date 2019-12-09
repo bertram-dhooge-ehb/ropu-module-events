@@ -9,6 +9,7 @@ import DAO._
 import model._
 import java.{util => ju}
 import java.sql.Timestamp
+import scala.collection.mutable
 
 /**
   * This controller creates an `Action` to handle HTTP requests to the
@@ -38,24 +39,97 @@ class EventsController @Inject()(cc: ControllerComponents)
     Ok(eventsJson)
   }
 
-  /* def getEvent(id: Int) = Action {
+  def getEvent(id: Int) = Action {
     var event = eventDAOInstance.getEventById(id)
+    if (event != null) {
+      var result: Map[String, String] = Map()
 
-    import AnyWriter.MyWriter.anyValWriter
-    val a: Any = event
+      event
+        .toString()
+        .split("::")
+        .map { t =>
+          t.split("=")(0).toString() -> t.split("=")(1).toString()
+        }
+        .foreach { i =>
+          result += i
+        }
 
-    Ok(Json.toJson(a))
-  } */
+      Ok(Json.toJson(result))
+    } else {
+      Ok("Unable to find this id")
+    }
+  }
 
   def deleteEvent(id: Int) = Action {
-    eventDAOInstance.deleteEvent(id)
-    Ok("Deleted from database")
+    if (eventDAOInstance.deleteEvent(id)) Ok("Deleted from database")
+    else Ok("Unable to delete from database, check id")
+  }
+
+  def updateEvent(data: String) = Action {
+    if (data.contains("id=")) {
+      /* Ok(Json.toJson(data.split("/").map { t =>
+        t.split("=")(0) -> t.split("=")(1)
+      })) */
+
+      var result: Map[String, String] = Map()
+
+      data
+        .split("/")
+        .map { t =>
+          t.split("=")(0) -> t.split("=")(1)
+        }
+        .foreach { i =>
+          result += i
+        }
+
+      eventDAOInstance.updateEvent(
+        if (result.contains("id")) result("id") else null,
+        if (result.contains("date")) result("date") else null,
+        if (result.contains("title")) result("title") else null,
+        if (result.contains("description")) result("description") else null
+      )
+      Ok(Json.toJson(result))
+    } else {
+      Ok("test failed")
+    }
+
+    /* var updatedEvent =
+      eventDAOInstance.updateEvent(id, date, title, description)
+
+    if (updatedEvent != null) {
+      var eventData = updatedEvent.toString().split("::")
+
+      var eventJson = Json.toJson(
+        Map(eventData.map { t =>
+          t.split("=")(0) -> t.split("=")(1)
+        })
+      )
+
+      Ok(eventJson)
+    } else {
+      Ok("Unable to update this event")
+    } */
   }
 
   /* def updateEvent(id: Int, date: String, title: String, description: String) {
-    eventDAOInstance.updateEvent(id, date, title, description)
-  } */
+    var updatedEvent =
+      eventDAOInstance.updateEvent(id, date, title, description)
 
+    if (updatedEvent != null) {
+      var eventData = updatedEvent.toString().split("::")
+
+      var eventJson = Json.toJson(
+        Map(eventData.map { t =>
+          t.split("=")(0) -> t.split("=")(1)
+        })
+      )
+
+      Ok(eventJson)
+    } else {
+      Ok("Unable to update this event")
+    }
+  }
+   */
   def index() = Action { implicit request: Request[AnyContent] =>
     eventDAOInstance.getAllEvents()
 
@@ -69,7 +143,7 @@ class EventsController @Inject()(cc: ControllerComponents)
     eventDAOInstance.createEvent(event)
     var testEvent = eventDAOInstance.getEventById(9)
     eventDAOInstance.deleteEvent(8)
-    eventDAOInstance.updateEvent(1, null, "UpdateTest", "Just testing update")
+    //eventDAOInstance.updateEvent(1, null, "UpdateTest", "Just testing update")
 
     Ok("Page loaded: " + testEvent)
   }

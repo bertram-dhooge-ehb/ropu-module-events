@@ -14,7 +14,7 @@ class Event(
 ) {
 
   override def toString(): String =
-    getDateFormatted() + "::" + title + "::" + description
+    "id=" + id + "::" + "date=" + getDateFormatted() + "::" + "title=" + title + "::" + "description=" + description
 
   def getDateFormatted(): String = {
     val format = new SimpleDateFormat("dd-MM-yyyy")

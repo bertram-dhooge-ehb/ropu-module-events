@@ -7,6 +7,8 @@ import java.{util => ju}
 import java.text.SimpleDateFormat
 import java.sql.ResultSet
 import java.sql.Timestamp
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 class EventDAO
     extends BaseDAO(
@@ -38,7 +40,6 @@ class EventDAO
     var resultSet = statement.executeQuery()
 
     if (!resultSet.isBeforeFirst()) {
-      System.out.println("No data");
       return null
     }
 
@@ -64,40 +65,49 @@ class EventDAO
     statement.executeUpdate()
   }
 
-  def deleteEvent(id: Int) {
+  def deleteEvent(id: Int): Boolean = {
     var statement: PreparedStatement =
       connection.prepareStatement("DELETE FROM events WHERE id = ?")
     statement.setString(1, id.toString())
     var resultSet = statement.executeUpdate()
+
+    return resultSet > 0
   }
 
   def updateEvent(
-      id: Int,
-      date: Timestamp = null,
+      id: String,
+      date: String = null,
       title: String = null,
       description: String = null
-  ) {
-    if (!(date == null && title == null && description == null)) {
-      var query = "UPDATE events SET "
-      if (date != null) {
-        query += "date = '" + date.toString()
-      }
-      if (title != null) {
-        if (date != null) {
-          query += "', "
-        }
-        query += "title = '" + title
-      }
-      if (description != null) {
-        if (date != null || title != null) {
-          query += "', "
-        }
-        query += "description = '" + description
-      }
-      query += "' WHERE id = " + id.toString()
-      var statement: PreparedStatement =
-        connection.prepareStatement(query)
-      statement.executeUpdate()
+  ): Event = {
+
+    var event = getEventById(id.toInt)
+
+    if (date != null && event.getDateFormatted() != date && LocalDate.parse(
+          date,
+          DateTimeFormatter.ofPattern("dd-MM-yyyy")
+        ) != null) {
+      event.date = Timestamp.valueOf(
+        LocalDate
+          .parse(date, DateTimeFormatter.ofPattern("dd-MM-yyyy"))
+          .atStartOfDay()
+      )
     }
+    if (title != null && event.title != title) {
+      event.title = title
+    }
+    if (description != null && event.description != description) {
+      event.description = description
+    }
+
+    var query =
+      "UPDATE events SET date = ?, title = ?, description = ? WHERE id = ?"
+    var statement: PreparedStatement = connection.prepareStatement(query)
+    statement.setString(1, event.getDateFormatted())
+    statement.setString(2, event.title)
+    statement.setString(3, event.description)
+    statement.setString(4, event.id.toString())
+
+    return event
   }
 }

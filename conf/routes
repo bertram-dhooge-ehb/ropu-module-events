@@ -5,9 +5,10 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.EventsController.getAllEvents
-#GET     /event/:id                  controllers.EventsController.getEvent(id: Int)
+GET     /event/:id                  controllers.EventsController.getEvent(id: Int)
 GET     /delete/:id                 controllers.EventsController.deleteEvent(id: Int)
-#GET     /update/:id :date :title :description   controllers.EventsController.updateEvent(id: Int, date: String, title: String, decription: String)
+GET     /update/*data               controllers.EventsController.updateEvent(data: String)
+
 
 # Map static resources from the /public folder to the /assets URL path
 #GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
