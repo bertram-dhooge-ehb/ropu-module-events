@@ -47,15 +47,13 @@ class EventDAO
 
     var title = resultSet.getString("title")
     var date = resultSet.getTimestamp("date")
-    val format = new SimpleDateFormat("dd-MM-yyyy")
     var description = resultSet.getString("description")
-    //ju.Calendar.getInstance(format.parse(dateString))
 
     var createdEvent = new Event(id, date, title, description)
     return createdEvent
   }
 
-  def createEvent(event: Event) {
+  def createEvent(event: Event): Event = {
     var statement: PreparedStatement =
       connection.prepareStatement("INSERT INTO events  VALUES (NULL, ?, ?, ?) ")
     statement.setString(1, event.date.toString())
@@ -63,6 +61,8 @@ class EventDAO
     statement.setString(3, event.description)
 
     statement.executeUpdate()
+
+    return event
   }
 
   def deleteEvent(id: Int): Boolean = {
@@ -107,6 +107,7 @@ class EventDAO
       statement.setString(2, event.title)
       statement.setString(3, event.description)
       statement.setString(4, event.id.toString())
+      statement.executeUpdate()
     }
     return event
   }

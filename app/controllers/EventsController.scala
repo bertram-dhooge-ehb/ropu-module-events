@@ -10,6 +10,9 @@ import model._
 import java.{util => ju}
 import java.sql.Timestamp
 import scala.collection.mutable
+import java.time.LocalDateTime
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 /**
   * This controller creates an `Action` to handle HTTP requests to the
@@ -42,109 +45,57 @@ class EventsController @Inject()(cc: ControllerComponents)
   def getEvent(id: Int) = Action {
     var event = eventDAOInstance.getEventById(id)
     if (event != null) {
-      var result: Map[String, String] = Map()
-
-      event
-        .toString()
-        .split("::")
-        .map { t =>
-          t.split("=")(0).toString() -> t.split("=")(1).toString()
-        }
-        .foreach { i =>
-          result += i
-        }
-
-      Ok(Json.toJson(result))
+      Ok(event.toJson)
     } else {
-      Ok("Unable to find this id")
+      NotFound
     }
   }
 
   def deleteEvent(id: Int) = Action {
     if (eventDAOInstance.deleteEvent(id)) Ok("Deleted from database")
-    else Ok("Unable to delete from database, check id")
+    else NotFound
   }
 
-  def updateEvent(data: String) = Action {
-    if (data.contains("id=")) {
-      /* Ok(Json.toJson(data.split("/").map { t =>
-        t.split("=")(0) -> t.split("=")(1)
-      })) */
+  def updateEvent() = Action(parse.json) { request =>
+    val id = (request.body \ "id").asOpt[Int]
 
-      var result: Map[String, String] = Map()
+    if (id.isDefined) {
+      val date = (request.body \ "date").asOpt[String]
+      val title = (request.body \ "date").asOpt[String]
+      val description = (request.body \ "date").asOpt[String]
 
-      data
-        .split("/")
-        .map { t =>
-          t.split("=")(0) -> t.split("=")(1)
-        }
-        .foreach { i =>
-          result += i
-        }
-
-      if (eventDAOInstance.updateEvent(
-            if (result.contains("id")) result("id") else null,
-            if (result.contains("date")) result("date") else null,
-            if (result.contains("title")) result("title") else null,
-            if (result.contains("description")) result("description") else null
-          ) != null) {
-        Ok(Json.toJson(result))
-      }
-    }
-    Ok("test failed")
-
-    /* var updatedEvent =
-      eventDAOInstance.updateEvent(id, date, title, description)
-
-    if (updatedEvent != null) {
-      var eventData = updatedEvent.toString().split("::")
-
-      var eventJson = Json.toJson(
-        Map(eventData.map { t =>
-          t.split("=")(0) -> t.split("=")(1)
-        })
+      val event = eventDAOInstance.updateEvent(
+        id.get.toString,
+        if (date.isDefined) date.get else null,
+        if (title.isDefined) title.get else null,
+        if (description.isDefined) description.get else null
       )
 
-      Ok(eventJson)
-    } else {
-      Ok("Unable to update this event")
-    } */
+      Ok(id.get.toString)
+    } else NotFound
   }
 
-  /* def updateEvent(id: Int, date: String, title: String, description: String) {
-    var updatedEvent =
-      eventDAOInstance.updateEvent(id, date, title, description)
+  def createEvent() = Action(parse.json) { request =>
+    val date = (request.body \ "date").asOpt[String]
+    val title = (request.body \ "date").asOpt[String]
+    val description = (request.body \ "date").asOpt[String]
 
-    if (updatedEvent != null) {
-      var eventData = updatedEvent.toString().split("::")
-
-      var eventJson = Json.toJson(
-        Map(eventData.map { t =>
-          t.split("=")(0) -> t.split("=")(1)
-        })
-      )
-
-      Ok(eventJson)
-    } else {
-      Ok("Unable to update this event")
-    }
-  }
-   */
-  def index() = Action { implicit request: Request[AnyContent] =>
-    eventDAOInstance.getAllEvents()
-
-    var event =
-      new Event(
+    if (date.isDefined && LocalDate.parse(
+          date.get,
+          DateTimeFormatter.ofPattern("dd-MM-yyyy")
+        ) != null) {
+      val event = new Event(
         0,
-        new Timestamp(ju.Calendar.getInstance().getTimeInMillis()),
-        "testEvent",
-        "This is a test event"
+        Timestamp.valueOf(
+          LocalDate
+            .parse(date.get, DateTimeFormatter.ofPattern("dd-MM-yyyy"))
+            .atStartOfDay()
+        ),
+        if (title.isDefined) title.get else null,
+        if (description.isDefined) description.get else null
       )
-    eventDAOInstance.createEvent(event)
-    var testEvent = eventDAOInstance.getEventById(9)
-    eventDAOInstance.deleteEvent(8)
-    //eventDAOInstance.updateEvent(1, null, "UpdateTest", "Just testing update")
+      Ok(eventDAOInstance.createEvent(event).toJson)
+    } else BadRequest("Can't have an event without a date")
 
-    Ok("Page loaded: " + testEvent)
   }
 }

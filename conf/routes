@@ -5,13 +5,7 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.EventsController.getAllEvents
-GET     /:id                  controllers.EventsController.getEvent(id: Int)
-DELETE  /delete/:id                 controllers.EventsController.deleteEvent(id: Int)
-PUT     /*data               controllers.EventsController.updateEvent(data: String)
-
-
-# Map static resources from the /public folder to the /assets URL path
-#GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
-
-
-
+GET     /:id                        controllers.EventsController.getEvent(id: Int)
+DELETE  /:id                        controllers.EventsController.deleteEvent(id: Int)
+PUT     /                           controllers.EventsController.updateEvent()
+POST    /                           controllers.EventsController.createEvent()

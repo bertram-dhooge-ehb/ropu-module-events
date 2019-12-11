@@ -16,6 +16,21 @@ class Event(
   override def toString(): String =
     "id=" + id + "::" + "date=" + getDateFormatted() + "::" + "title=" + title + "::" + "description=" + description
 
+  def toJson(): JsValue = {
+    var result: Map[String, String] = Map()
+
+    toString()
+      .split("::")
+      .map { t =>
+        t.split("=")(0).toString() -> t.split("=")(1).toString()
+      }
+      .foreach { i =>
+        result += i
+      }
+
+    return Json.toJson(result)
+  }
+
   def getDateFormatted(): String = {
     val format = new SimpleDateFormat("dd-MM-yyyy")
     return format.format(date)
