@@ -1044,3 +1044,1142 @@ WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\a
 WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\model\Event.scala
 WARN  no build target: C:\Users\bertr\TI\ropu\ropu-module-events\events-module\app\controllers\EventsController.scala
 INFO  shutting down Metals
+INFO  time: initialize in 1.31s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+Dec 11, 2019 9:43:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file 'C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala' because it doesn't belong to a build target.
+Dec 11, 2019 9:43:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala
+Dec 11, 2019 9:43:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 11, 2019 9:43:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 11, 2019 9:43:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 11, 2019 9:43:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 11, 2019 9:43:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Dec 11, 2019 9:43:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\app\controllers\EventsController.scala
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project\plugins.sbt
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project\plugins.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_221\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\bertr\AppData\Local\Temp\metals604665548698320203\sbt-launch.jar metalsEnable bloopInstall'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_221\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\bertr\AppData\Local\Temp\metals7141140297809765909\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading global plugins from C:\Users\bertr\.sbt\1.0\plugins
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading settings for project ropu-module-events-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project
+INFO  [info] Loading global plugins from C:\Users\bertr\.sbt\1.0\plugins
+INFO  [info] Loading settings for project ropu-module-events-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\ropu-module-events-build.json
+INFO  [success] Generated .bloop\ropu-module-events-build.json
+INFO  [success] Total time: 43 s, completed Dec 11, 2019 9:51:15 AM
+INFO  [success] Total time: 34 s, completed Dec 11, 2019 9:51:15 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+ERROR java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@3339749e rejected from java.util.concurrent.ThreadPoolExecutor@6ba673bb[Shutting down, pool size = 5, active threads = 5, queued tasks = 0, completed tasks = 8303]
+ERROR 	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+ERROR 	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+ERROR 	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+ERROR 	at scala.concurrent.Promise.complete(Promise.scala:53)
+ERROR 	at scala.concurrent.Promise.complete$(Promise.scala:52)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+ERROR 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+ERROR 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ERROR 	at java.lang.Thread.run(Thread.java:748)
+ERROR java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@3b2f041e rejected from java.util.concurrent.ThreadPoolExecutor@6ba673bb[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 8304]
+ERROR 	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+ERROR 	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+ERROR 	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+ERROR 	at scala.concurrent.Promise.complete(Promise.scala:53)
+ERROR 	at scala.concurrent.Promise.complete$(Promise.scala:52)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+ERROR 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+ERROR 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ERROR 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] java.io.FileNotFoundException: C:\Users\bertr\AppData\Local\Coursier\cache\v1\.structure.lock (Access is denied)
+INFO  [error] 	at java.io.FileOutputStream.open0(Native Method)
+INFO  [error] 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+INFO  [error] 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+INFO  [error] 	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+INFO  [error] 	at lmcoursier.internal.shaded.coursier.paths.CachePath.withStructureLock(CachePath.java:128)
+INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withStructureLock(CacheLocks.scala:21)
+INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:38)
+INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$32(FileCache.scala:553)
+INFO  [error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+INFO  [error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+INFO  [error] 	at scala.util.Success.map(Try.scala:213)
+INFO  [error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+INFO  [error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] (updateClassifiers) java.io.FileNotFoundException: C:\Users\bertr\AppData\Local\Coursier\cache\v1\.structure.lock (Access is denied)
+ERROR java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@394327a6 rejected from java.util.concurrent.ThreadPoolExecutor@6ba673bb[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 8305]
+ERROR 	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+ERROR 	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+ERROR 	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+ERROR 	at scala.concurrent.Promise.complete(Promise.scala:53)
+ERROR 	at scala.concurrent.Promise.complete$(Promise.scala:52)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+ERROR 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+ERROR 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ERROR 	at java.lang.Thread.run(Thread.java:748)
+ERROR java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@29562990 rejected from java.util.concurrent.ThreadPoolExecutor@6ba673bb[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 8306]
+ERROR 	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+ERROR 	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+ERROR 	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+ERROR 	at scala.concurrent.Promise.complete(Promise.scala:53)
+ERROR 	at scala.concurrent.Promise.complete$(Promise.scala:52)
+ERROR 	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+ERROR 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+ERROR 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ERROR 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ERROR 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] Total time: 61 s (01:01), completed Dec 11, 2019 9:52:57 AM
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 2m57s
+ERROR sbt command failed: C:\Program Files\Java\jdk1.8.0_221\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\bertr\AppData\Local\Temp\metals7141140297809765909\sbt-launch.jar metalsEnable bloopInstall
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\root.json
+INFO  [success] Generated .bloop\root-test.json
+INFO  [success] Total time: 74 s (01:14), completed Dec 11, 2019 9:53:11 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 3m31s
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 59715'
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-frontend_2.12-1.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-frontend_2.12-1.3.2.pom
+https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-… 
+https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-… 
+
+https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-… 
+https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-… 
+
+https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-… 
+https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-… 
+
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-frontend_2.12-1.3.2.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/bloop-frontend_2.12-1.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/1.3.2/
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.20/scalaz-core_2.12-7.2.20.pom
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.20/scalaz-core_2.12-7.2.20.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sockets/1.3.2/sockets-1.3.2.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sockets/1.3.2/sockets-1.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/monix/monix_2.12/2.3.3/monix_2.12-2.3.3.pom
+Downloading https://repo1.maven.org/maven2/io/monix/monix_2.12/2.3.3/monix_2.12-2.3.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.20/scalaz-core_2.12-7.2.20.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/1.3.2/bloop-backend_2.12-1.3.2.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sockets/1.3.2/sockets-1.3.2.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.3.2/bloop-config_2.12-1.3.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/monix/monix_2.12/2.3.3/monix_2.12-2.3.3.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/1.3.2/bloop-backend_2.12-1.3.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/monix/monix_2.12/2.3.3/monix_2.12-2.3.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sockets/1.3.2/sockets-1.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app_2.12/1.2.0-faster-compile-time/case-app_2.12-1.2.0-faster-compile-time.pom
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.20/scalaz-core_2.12-7.2.20.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app_2.12/1.2.0-faster-compile-time/case-app_2.12-1.2.0-faster-compile-time.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/1.3.2/bloop-backend_2.12-1.3.2.pom
+Downloading https://repo1.maven.org/maven2/io/monix/monix_2.12/2.3.3/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.3.2/bloop-config_2.12-1.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sockets/1.3.2/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app_2.12/1.2.0-faster-compile-time/case-app_2.12-1.2.0-faster-compile-time.pom
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.20/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/1.3.2/bloop-backend_2.12-1.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/zaxxer/nuprocess/1.2.4/nuprocess-1.2.4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app_2.12/1.2.0-faster-compile-time/case-app_2.12-1.2.0-faster-compile-time.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.3.2/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.3.2/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/1.3.2/
+Downloaded https://repo1.maven.org/maven2/com/zaxxer/nuprocess/1.2.4/nuprocess-1.2.4.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app_2.12/1.2.0-faster-compile-time/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app_2.12/1.2.0-faster-compile-time/
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.20/
+Downloaded https://repo1.maven.org/maven2/io/monix/monix_2.12/2.3.3/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sockets/1.3.2/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/1.3.2/
+Downloading https://repo1.maven.org/maven2/com/zaxxer/nuprocess/1.2.4/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/
+Downloaded https://repo1.maven.org/maven2/com/zaxxer/nuprocess/1.2.4/
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.6.1/brave-5.6.1.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.6.1/brave-5.6.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M3/circe-derivation_2.12-0.9.0-M3.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.0.0-M4/bsp4s_2.12-2.0.0-M4.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.0.0-M4/bsp4s_2.12-2.0.0-M4.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.7.15/zipkin-sender-urlconnection-2.7.15.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.0.0-M4/bsp4s_2.12-2.0.0-M4.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.7.15/zipkin-sender-urlconnection-2.7.15.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M3/circe-derivation_2.12-0.9.0-M3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.6.1/brave-5.6.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom
+Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.6.1/brave-5.6.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.0.0-M4/bsp4s_2.12-2.0.0-M4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.7.15/zipkin-sender-urlconnection-2.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.20/scalaz-concurrent_2.12-7.2.20.pom
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.20/scalaz-concurrent_2.12-7.2.20.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/github/soc/directories/10/directories-10.pom
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.7.15/zipkin-sender-urlconnection-2.7.15.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/github/soc/directories/10/directories-10.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/2.3.3/monix-reactive_2.12-2.3.3.pom
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0/asm-6.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/2.3.3/monix-reactive_2.12-2.3.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.20/scalaz-concurrent_2.12-7.2.20.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/6.0/asm-util-6.0.pom
+Downloaded https://repo1.maven.org/maven2/io/github/soc/directories/10/directories-10.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/6.0/asm-util-6.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/2.3.3/monix-reactive_2.12-2.3.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/circe-parser_2.12-0.9.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.20/scalaz-concurrent_2.12-7.2.20.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.0.0/librarymanagement-ivy_2.12-1.0.0.pom
+Downloaded https://repo1.maven.org/maven2/io/github/soc/directories/10/directories-10.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc_2.12/1.3.0-M4+22-4704d479/zinc_2.12-1.3.0-M4+22-4704d479.pom
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/2.3.3/monix-reactive_2.12-2.3.3.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc_2.12/1.3.0-M4+22-4704d479/zinc_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.0.0/librarymanagement-ivy_2.12-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/2.3.3/monix-eval_2.12-2.3.3.pom
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/6.0/asm-util-6.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/2.3.3/monix-eval_2.12-2.3.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc_2.12/1.3.0-M4+22-4704d479/zinc_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.0.0/librarymanagement-ivy_2.12-1.0.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc_2.12/1.3.0-M4+22-4704d479/zinc_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.1/jna-4.5.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/circe-parser_2.12-0.9.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/1.1.0-M14-4/coursier-cache_2.12-1.1.0-M14-4.pom
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/2.3.3/monix-eval_2.12-2.3.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/1.1.0-M14-4/coursier-cache_2.12-1.1.0-M14-4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/6.0/asm-util-6.0.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/nailgun-server/ee3c4343/nailgun-server-ee3c4343.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.0.0/librarymanagement-ivy_2.12-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/nailgun-server/ee3c4343/nailgun-server-ee3c4343.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/2.3.3/monix-eval_2.12-2.3.3.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app-util_2.12/1.2.0-faster-compile-time/case-app-util_2.12-1.2.0-faster-compile-time.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app-util_2.12/1.2.0-faster-compile-time/case-app-util_2.12-1.2.0-faster-compile-time.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app-util_2.12/1.2.0-faster-compile-time/case-app-util_2.12-1.2.0-faster-compile-time.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/nailgun-server/ee3c4343/nailgun-server-ee3c4343.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.0.4/test-agent-1.0.4.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/nailgun-server/ee3c4343/nailgun-server-ee3c4343.pom
+Downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/2.3.3/monix-execution_2.12-2.3.3.pom
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.1/jna-4.5.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/2.3.3/monix-execution_2.12-2.3.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/1.1.0-M14-4/coursier-cache_2.12-1.1.0-M14-4.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.0.4/test-agent-1.0.4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/1.1.0-M14-4/coursier-cache_2.12-1.1.0-M14-4.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app-annotations_2.12/1.2.0-faster-compile-time/case-app-annotations_2.12-1.2.0-faster-compile-time.pom.sha1
+https://repo1.maven.org/maven2/ch/epfl/scala/case-app-util_2.12/1.2.0-faster-… 
+https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.0.4/test-agent-1.0.… 
+https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/2.3.3/monix-exec… 
+https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/2.3.3/monix-exec… 
+https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.0.4/test-agent-1.0.… 
+https://repo1.maven.org/maven2/ch/epfl/scala/case-app-annotations_2.12/1.2.0-… 
+
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/2.3.3/monix-execution_2.12-2.3.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app-annotations_2.12/1.2.0-faster-compile-time/case-app-annotations_2.12-1.2.0-faster-compile-time.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app-util_2.12/1.2.0-faster-compile-time/case-app-util_2.12-1.2.0-faster-compile-time.pom.sha1
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/2.3.3/monix-execution_2.12-2.3.3.pom
+Downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.0.4/test-agent-1.0.4.pom.sha1
+Downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom
+Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.pom
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/
+Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app-annotations_2.12/1.2.0-faster-compile-time/case-app-annotations_2.12-1.2.0-faster-compile-time.pom
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/1.1.0-M14-4/coursier_2.12-1.1.0-M14-4.pom
+Downloaded https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/1.1.0-M14-4/coursier_2.12-1.1.0-M14-4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.0.4/test-agent-1.0.4.pom
+Downloading https://repo1.maven.org/maven2/io/monix/monix-types_2.12/2.3.3/monix-types_2.12-2.3.3.pom
+Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/monix/monix-types_2.12/2.3.3/monix-types_2.12-2.3.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/1.1.0-M14-4/coursier_2.12-1.1.0-M14-4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/1.1.0-M14-4/coursier_2.12-1.1.0-M14-4.pom
+Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.13/zt-zip-1.13.pom
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-types_2.12/2.3.3/monix-types_2.12-2.3.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.pom
+Downloading https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M3/
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-types_2.12/2.3.3/monix-types_2.12-2.3.3.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.6.1/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.0.0-M4/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.7.15/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.0.0-M4/
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.pom
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.20/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.6.1/
+Downloading https://repo1.maven.org/maven2/io/github/soc/directories/10/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.7.15/
+Downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/2.3.3/
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M3/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.0.0/
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.20/
+Downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/2.3.3/
+Downloaded https://repo1.maven.org/maven2/io/github/soc/directories/10/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/nailgun-server/ee3c4343/
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/2.3.3/
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/6.0/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc_2.12/1.3.0-M4+22-4704d479/
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/1.1.0-M14-4/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.0.0/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app-util_2.12/1.2.0-faster-compile-time/
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/2.3.3/
+Downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/2.3.3/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/nailgun-server/ee3c4343/
+Downloading https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/6.0/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/2.3.3/
+Downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/1.1.0-M14-4/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.0.4/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app-util_2.12/1.2.0-faster-compile-time/
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.1/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/1.1.0-M14-4/
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/
+Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.13/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.0.4/
+Downloading https://repo1.maven.org/maven2/io/monix/monix-types_2.12/2.3.3/
+Downloaded https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.1/
+Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.13/
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier_2.12/1.1.0-M14-4/
+https://repo1.maven.org/maven2/ch/epfl/scala/case-app-annotations_2.12/1.2.0-… 
+
+Downloaded https://repo1.maven.org/maven2/io/monix/monix-types_2.12/2.3.3/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app-annotations_2.12/1.2.0-faster-compile-time/case-app-annotations_2.12-1.2.0-faster-compile-time.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/case-app-annotations_2.12/1.2.0-faster-compile-time/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/case-app-annotations_2.12/1.2.0-faster-compile-time/
+Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.6.1/brave-parent-5.6.1.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.6.1/brave-parent-5.6.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.7.15/zipkin-reporter-parent-2.7.15.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.7.15/zipkin-reporter-parent-2.7.15.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.7.15/zipkin-reporter-parent-2.7.15.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.6.1/brave-parent-5.6.1.pom
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.7.15/zipkin-reporter-parent-2.7.15.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.7.15/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.6.1/brave-parent-5.6.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.6.1/
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/6.0/asm-parent-6.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/6.0/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.7.15/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.6.1/
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/6.0/
+Downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/
+Downloaded https://repo1.maven.org/maven2/org/ow2/ow2/1.3/
+Downloading https://repo1.maven.org/maven2/org/jctools/jctools-core/2.0.1/jctools-core-2.0.1.pom
+Downloading https://repo1.maven.org/maven2/org/jctools/jctools-core/2.0.1/jctools-core-2.0.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.0/sjson-new-core_2.12-0.8.0.pom
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.0/sjson-new-core_2.12-0.8.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-compile-core_2.12/1.3.0-M4+22-4704d479/zinc-compile-core_2.12-1.3.0-M4+22-4704d479.pom
+Downloaded https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-compile-core_2.12/1.3.0-M4+22-4704d479/zinc-compile-core_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-compile-core_2.12/1.3.0-M4+22-4704d479/zinc-compile-core_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/jctools/jctools-core/2.0.1/jctools-core-2.0.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/jctools/jctools-core/2.0.1/jctools-core-2.0.1.pom
+Downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-compile-core_2.12/1.3.0-M4+22-4704d479/zinc-compile-core_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/org/jctools/jctools-core/2.0.1/
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.0/sjson-new-core_2.12-0.8.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classfile_2.12/1.3.0-M4+22-4704d479/zinc-classfile_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classfile_2.12/1.3.0-M4+22-4704d479/zinc-classfile_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.0/sjson-new-core_2.12-0.8.0.pom
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classfile_2.12/1.3.0-M4+22-4704d479/zinc-classfile_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classfile_2.12/1.3.0-M4+22-4704d479/zinc-classfile_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/
+Downloaded https://repo1.maven.org/maven2/org/jctools/jctools-core/2.0.1/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-compile-core_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/circe-core_2.12-0.9.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/circe-core_2.12-0.9.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.pom
+Downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-compile-core_2.12/1.3.0-M4+22-4704d479/
+Downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/1.1.0-M14-4/coursier-core_2.12-1.1.0-M14-4.pom
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/1.1.0-M14-4/coursier-core_2.12-1.1.0-M14-4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.12.1/zipkin-2.12.1.pom
+Downloaded https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.12.1/zipkin-2.12.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/1.1.0-M14-4/coursier-core_2.12-1.1.0-M14-4.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M4/circe-derivation_2.12-0.9.0-M4.pom
+Downloading https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M4/circe-derivation_2.12-0.9.0-M4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/circe-jawn_2.12-0.9.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/1.1.0-M14-4/coursier-core_2.12-1.1.0-M14-4.pom
+Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M4/circe-derivation_2.12-0.9.0-M4.pom
+Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/circe-jawn_2.12-0.9.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.0.0/librarymanagement-core_2.12-1.0.0.pom
+Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.12.1/zipkin-2.12.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.0.0/librarymanagement-core_2.12-1.0.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.12.1/zipkin-2.12.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.20/scalaz-effect_2.12-7.2.20.pom
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M4/circe-derivation_2.12-0.9.0-M4.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.20/scalaz-effect_2.12-7.2.20.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/lsp4s_2.12/0.2.0/lsp4s_2.12-0.2.0.pom
+Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/lsp4s_2.12/0.2.0/lsp4s_2.12-0.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.0.0/librarymanagement-core_2.12-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.0/
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.20/scalaz-effect_2.12-7.2.20.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.7.15/zipkin-reporter-2.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.0.0/librarymanagement-core_2.12-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-core_2.12/1.3.0-M4+22-4704d479/zinc-core_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/lsp4s_2.12/0.2.0/lsp4s_2.12-0.2.0.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-core_2.12/1.3.0-M4+22-4704d479/zinc-core_2.12-1.3.0-M4+22-4704d479.pom
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.20/scalaz-effect_2.12-7.2.20.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.7.15/zipkin-reporter-2.7.15.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/lsp4s_2.12/0.2.0/lsp4s_2.12-0.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-persist_2.12/1.3.0-M4+22-4704d479/zinc-persist_2.12-1.3.0-M4+22-4704d479.pom
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.0/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-persist_2.12/1.3.0-M4+22-4704d479/zinc-persist_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.7.15/zipkin-reporter-2.7.15.pom
+Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/argonaut-shapeless_6.2_2.12-1.2.0-M11.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-core_2.12/1.3.0-M4+22-4704d479/zinc-core_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/argonaut-shapeless_6.2_2.12-1.2.0-M11.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/argonaut-shapeless_6.2_2.12-1.2.0-M11.pom
+Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-core_2.12/1.3.0-M4+22-4704d479/zinc-core_2.12-1.3.0-M4+22-4704d479.pom
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.7.15/zipkin-reporter-2.7.15.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classfile_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-persist_2.12/1.3.0-M4+22-4704d479/zinc-persist_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/
+Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-persist_2.12/1.3.0-M4+22-4704d479/zinc-persist_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/6.0/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classfile_2.12/1.3.0-M4+22-4704d479/
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/
+Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/argonaut-shapeless_6.2_2.12-1.2.0-M11.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/
+Downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/
+Downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/1.1.0-M14-4/
+Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.12.1/
+Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/6.0/
+Downloading https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M4/
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/
+Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.0.0/
+Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/
+Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.20/
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-derivation_2.12/0.9.0-M4/
+Downloading https://repo1.maven.org/maven2/org/scalameta/lsp4s_2.12/0.2.0/
+Downloaded https://repo1.maven.org/maven2/io/get-coursier/coursier-core_2.12/1.1.0-M14-4/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-core_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/
+Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.7.15/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/lsp4s_2.12/0.2.0/
+Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-core_2.12/1.3.0-M4+22-4704d479/
+Downloading https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.0.0/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-persist_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.12.1/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.7.15/
+Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/
+Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/
+Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.20/
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-persist_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/
+Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/parent/2.12.1/parent-2.12.1.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/parent/2.12.1/parent-2.12.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.0/protobuf-parent-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.26/
+Downloaded https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.0/protobuf-parent-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.0/
+Downloaded https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.0/
+Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.26/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/parent/2.12.1/parent-2.12.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/parent/2.12.1/parent-2.12.1.pom
+Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/parent/2.12.1/
+Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/parent/2.12.1/
+Downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.0/protobuf-bom-3.7.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.0/protobuf-bom-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.0/
+Downloaded https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.0/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.0.0/util-cache_2.12-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.0.0/util-cache_2.12-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-apiinfo_2.12/1.3.0-M4+22-4704d479/zinc-apiinfo_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-apiinfo_2.12/1.3.0-M4+22-4704d479/zinc-apiinfo_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.0.0/util-cache_2.12-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.1/util-logging_2.12-1.2.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.0.0/util-cache_2.12-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.1/util-logging_2.12-1.2.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.1/util-logging_2.12-1.2.1.pom
+Downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.0/gigahorse-okhttp_2.12-0.3.0.pom
+Downloaded https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.0/gigahorse-okhttp_2.12-0.3.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.0/gigahorse-okhttp_2.12-0.3.0.pom
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.13/enumeratum_2.12-1.5.13.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-apiinfo_2.12/1.3.0-M4+22-4704d479/zinc-apiinfo_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.13/enumeratum_2.12-1.5.13.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.1/util-logging_2.12-1.2.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-apiinfo_2.12/1.3.0-M4+22-4704d479/zinc-apiinfo_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.1/util-relation_2.12-1.2.1.pom
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.0/gigahorse-okhttp_2.12-0.3.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.1/util-relation_2.12-1.2.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/compiler-interface/1.3.0-M4+22-4704d479/compiler-interface-1.3.0-M4+22-4704d479.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/compiler-interface/1.3.0-M4+22-4704d479/compiler-interface-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.13/enumeratum_2.12-1.5.13.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/util-position_2.12-1.0.0.pom
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.13/enumeratum_2.12-1.5.13.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/util-position_2.12-1.0.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/util-position_2.12-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/jsonrpc_2.12/0.2.0/jsonrpc_2.12-0.2.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.1/util-relation_2.12-1.2.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum-circe_2.12/1.5.17/enumeratum-circe_2.12-1.5.17.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/compiler-interface/1.3.0-M4+22-4704d479/compiler-interface-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/jsonrpc_2.12/0.2.0/jsonrpc_2.12-0.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/jsonrpc_2.12/0.2.0/jsonrpc_2.12-0.2.0.pom
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum-circe_2.12/1.5.17/enumeratum-circe_2.12-1.5.17.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.1/util-relation_2.12-1.2.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum-circe_2.12/1.5.17/enumeratum-circe_2.12-1.5.17.pom
+Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/jsonrpc_2.12/0.2.0/jsonrpc_2.12-0.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/circe-numbers_2.12-0.9.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum-circe_2.12/1.5.17/enumeratum-circe_2.12-1.5.17.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classpath_2.12/1.3.0-M4+22-4704d479/zinc-classpath_2.12-1.3.0-M4+22-4704d479.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classpath_2.12/1.3.0-M4+22-4704d479/zinc-classpath_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/compiler-interface/1.3.0-M4+22-4704d479/compiler-interface-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/circe-numbers_2.12-0.9.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classpath_2.12/1.3.0-M4+22-4704d479/zinc-classpath_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.8.0-RC1/scalapb-runtime_2.12-0.8.0-RC1.pom
+Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.1/util-control_2.12-1.2.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classpath_2.12/1.3.0-M4+22-4704d479/zinc-classpath_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.1/util-control_2.12-1.2.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.8.0-RC1/scalapb-runtime_2.12-0.8.0-RC1.pom.sha1
+https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/util-po… 
+
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.1/util-control_2.12-1.2.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.1/util-control_2.12-1.2.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.8.0-RC1/scalapb-runtime_2.12-0.8.0-RC1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.pom
+Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.8.0-RC1/scalapb-runtime_2.12-0.8.0-RC1.pom
+Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/argonaut_2.12-6.2.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5.pom
+Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/argonaut_2.12-6.2.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/jawn-parser_2.12-0.11.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/argonaut_2.12-6.2.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/argonaut_2.12-6.2.3.pom
+Downloaded https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.0.0/
+Downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/
+Downloaded https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/jawn-parser_2.12-0.11.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.1/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.0/io_2.12-1.2.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.0/io_2.12-1.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.0.0/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-apiinfo_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.0/io_2.12-1.2.0.pom
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.0/
+Downloaded https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.1/
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.13/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.0/io_2.12-1.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.1/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-apiinfo_2.12/1.3.0-M4+22-4704d479/
+Downloading https://repo1.maven.org/maven2/org/scalameta/jsonrpc_2.12/0.2.0/
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.0/
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum-circe_2.12/1.5.17/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.13/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/compiler-interface/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.1/
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum-circe_2.12/1.5.17/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classpath_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/
+Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/jsonrpc_2.12/0.2.0/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.1/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/compiler-interface/1.3.0-M4+22-4704d479/
+Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.8.0-RC1/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/
+https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/util-po… 
+
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/zinc-classpath_2.12/1.3.0-M4+22-4704d479/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/
+Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/
+Downloading https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.1/
+Downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/
+Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.8.0-RC1/
+Downloading https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.4.4/
+https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/util-po… 
+
+Downloaded https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.3/
+Downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.0/
+Downloaded https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/
+Downloaded https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/
+Downloaded https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.4.4/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.0/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/util-position_2.12-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.0.0/
+Downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.7.0/parent-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/
+Downloaded https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.7.0/parent-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.7.0/
+Downloaded https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.7.0/
+Downloaded https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/
+Downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.7.0/okhttp-3.7.0.pom
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.0/gigahorse-core_2.12-0.3.0.pom
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.0/gigahorse-core_2.12-0.3.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2.pom
+Downloading https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6.pom
+Downloaded https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.7.0/okhttp-3.7.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/fastparse_2.12-1.0.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6.pom
+Downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/fastparse_2.12-1.0.0.pom
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.0/gigahorse-core_2.12-0.3.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.9/enumeratum-macros_2.12-1.5.9.pom
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.0/gigahorse-core_2.12-0.3.0.pom
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.9/enumeratum-macros_2.12-1.5.9.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2.pom
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.1/util-interface-1.2.1.pom
+Downloaded https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.1/util-interface-1.2.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/fastparse_2.12-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.2/sjson-new-core_2.12-0.8.2.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.1/util-interface-1.2.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.2/sjson-new-core_2.12-0.8.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/fastparse_2.12-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/jline/jline/2.14.4/jline-2.14.4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.9/enumeratum-macros_2.12-1.5.9.pom.sha1
+Downloading https://repo1.maven.org/maven2/jline/jline/2.14.4/jline-2.14.4.pom
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.9/enumeratum-macros_2.12-1.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0.pom
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.2/sjson-new-core_2.12-0.8.2.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.2/sjson-new-core_2.12-0.8.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.7.0/okhttp-3.7.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.1/util-interface-1.2.1.pom
+Downloaded https://repo1.maven.org/maven2/jline/jline/2.14.4/jline-2.14.4.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.8.2/sjson-new-scalajson_2.12-0.8.2.pom
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.8.2/sjson-new-scalajson_2.12-0.8.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/compiler-bridge_2.12/1.3.0-M4+22-4704d479/compiler-bridge_2.12-1.3.0-M4+22-4704d479.pom
+Downloaded https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.7.0/okhttp-3.7.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/compiler-bridge_2.12/1.3.0-M4+22-4704d479/compiler-bridge_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.8.0/sjson-new-murmurhash_2.12-0.8.0.pom
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.8.2/sjson-new-scalajson_2.12-0.8.2.pom
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.8.0/sjson-new-murmurhash_2.12-0.8.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.8.2/sjson-new-scalajson_2.12-0.8.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/compiler-bridge_2.12/1.3.0-M4+22-4704d479/compiler-bridge_2.12-1.3.0-M4+22-4704d479.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/compiler-bridge_2.12/1.3.0-M4+22-4704d479/compiler-bridge_2.12-1.3.0-M4+22-4704d479.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.8.0/sjson-new-murmurhash_2.12-0.8.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.8.0/sjson-new-murmurhash_2.12-0.8.0.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/outr/scribe_2.12/2.5.0/scribe_2.12-2.5.0.pom
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/outr/scribe_2.12/2.5.0/scribe_2.12-2.5.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.0/
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom
+Downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/
+Downloading https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/
+Downloaded https://repo1.maven.org/maven2/com/outr/scribe_2.12/2.5.0/scribe_2.12-2.5.0.pom
+Downloaded https://repo1.maven.org/maven2/com/outr/scribe_2.12/2.5.0/scribe_2.12-2.5.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.0/
+Downloading https://repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.9/
+Downloaded https://repo1.maven.org/maven2/jline/jline/2.14.4/jline-2.14.4.pom
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.2/
+Downloaded https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/
+Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.1/
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/
+Downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.7.0/
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.8.2/
+Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.1/
+Downloading https://repo1.maven.org/maven2/ch/epfl/scala/compiler-bridge_2.12/1.3.0-M4+22-4704d479/
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.2/
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.8.0/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/
+Downloaded https://repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.9/
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.8.2/
+Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.8.0-RC1/lenses_2.12-0.8.0-RC1.pom
+Downloaded https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.7.0/
+Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.8.0-RC1/lenses_2.12-0.8.0-RC1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.8.0/
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/
+Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/compiler-bridge_2.12/1.3.0-M4+22-4704d479/
+Downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/
+Downloading https://repo1.maven.org/maven2/com/outr/scribe_2.12/2.5.0/
+Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.8.0-RC1/lenses_2.12-0.8.0-RC1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/
+Downloading https://repo1.maven.org/maven2/jline/jline/2.14.4/
+Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.8.0-RC1/lenses_2.12-0.8.0-RC1.pom
+Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.8.0-RC1/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/
+Downloaded https://repo1.maven.org/maven2/jline/jline/2.14.4/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/
+Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.8.0-RC1/
+Downloaded https://repo1.maven.org/maven2/com/outr/scribe_2.12/2.5.0/
+Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
+Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/
+Downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
+Downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/
+Downloaded https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/
+Downloading https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/apache/apache/18/
+Downloaded https://repo1.maven.org/maven2/org/apache/apache/18/
+Downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/fastparse-utils_2.12-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/fastparse-utils_2.12-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.12.0/okio-1.12.0.pom
+Downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.12.0/okio-1.12.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/fastparse-utils_2.12-1.0.0.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0.pom
+Downloaded https://repo1.maven.org/maven2/com/squareup/okio/okio/1.12.0/okio-1.12.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/outr/scribe-macros_2.12/2.5.0/scribe-macros_2.12-2.5.0.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.pom
+Downloading https://repo1.maven.org/maven2/com/outr/scribe-macros_2.12/2.5.0/scribe-macros_2.12-2.5.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/fastparse-utils_2.12-1.0.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0.pom
+Downloaded https://repo1.maven.org/maven2/com/squareup/okio/okio/1.12.0/okio-1.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.12.0/
+Downloaded https://repo1.maven.org/maven2/com/squareup/okio/okio/1.12.0/
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/scribe-macros_2.12/2.5.0/scribe-macros_2.12-2.5.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0.pom
+Downloading https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.0.2/perfolation_2.12-1.0.2.pom
+Downloaded https://repo1.maven.org/maven2/com/outr/scribe-macros_2.12/2.5.0/scribe-macros_2.12-2.5.0.pom
+Downloading https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.0.2/perfolation_2.12-1.0.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/
+Downloaded https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/
+Downloading https://repo1.maven.org/maven2/com/outr/scribe-macros_2.12/2.5.0/
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/
+Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/scribe-macros_2.12/2.5.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.0.2/perfolation_2.12-1.0.2.pom
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.0.2/perfolation_2.12-1.0.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.0.2/
+Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.0.2/
+Downloading https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.12.0/okio-parent-1.12.0.pom
+Downloading https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.12.0/okio-parent-1.12.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.12.0/okio-parent-1.12.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.12.0/okio-parent-1.12.0.pom
+Downloading https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.12.0/
+Downloaded https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.12.0/
+Downloading https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/perfolation-macros_2.12-1.0.2.pom
+Downloading https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/perfolation-macros_2.12-1.0.2.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/perfolation-macros_2.12-1.0.2.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/perfolation-macros_2.12-1.0.2.pom
+Downloading https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/
+Downloaded https://repo1.maven.org/maven2/com/outr/perfolation-macros_2.12/1.0.2/
+The server is listening for incoming connections at tcp://127.0.0.1:59715...
+Accepted incoming BSP client connection at tcp://127.0.0.1:59715
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\bertr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 1m4s
+BSP initialization handshake complete.
+INFO  time: imported build in 3.21s
+INFO  time: indexed workspace in 12s
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/mtags_2.13.1-0.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/mtags_2.13.1-0.7.6.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/mtags_2.13.1-0.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/mtags_2.13.1-0.7.6.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.1. Compiling...
+8 warnings found
+INFO    Compilation completed in 30.194s.
+INFO  time: compiled root in 47s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 1.82s
+ERROR Failed to compile 'root-test'
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 1.52s
+ERROR Failed to compile 'root-test'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project\plugins.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_221\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\bertr\AppData\Local\Temp\metals1895107343378605482\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from C:\Users\bertr\.sbt\1.0\plugins
+INFO  [info] Loading settings for project ropu-module-events-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\ropu-module-events-build.json
+INFO  [success] Total time: 14 s, completed Dec 11, 2019 10:23:52 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\root.json
+INFO  [success] Generated .bloop\root-test.json
+INFO  [success] Total time: 6 s, completed Dec 11, 2019 10:24:08 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 57s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 62183'
+The server is listening for incoming connections at tcp://127.0.0.1:62183...
+Accepted incoming BSP client connection at tcp://127.0.0.1:62183
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\bertr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+BSP initialization handshake complete.
+INFO  time: connected to build server in 4.73s
+INFO  time: imported build in 0.84s
+INFO  time: indexed workspace in 2.93s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 1.08s
+ERROR Failed to compile 'root-test'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_221\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\bertr\AppData\Local\Temp\metals3765038634483960490\sbt-launch.jar metalsEnable bloopInstall'
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 1.96s
+ERROR Failed to compile 'root-test'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from C:\Users\bertr\.sbt\1.0\plugins
+INFO  [info] Loading settings for project ropu-module-events-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project
+INFO  [success] Generated .bloop\ropu-module-events-build.json
+INFO  [success] Total time: 5 s, completed Dec 11, 2019 10:25:36 AM
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [success] Generated .bloop\root.json
+INFO  [success] Generated .bloop\root-test.json
+INFO  [success] Total time: 2 s, completed Dec 11, 2019 10:25:44 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 32s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 62292'
+The server is listening for incoming connections at tcp://127.0.0.1:62292...
+Accepted incoming BSP client connection at tcp://127.0.0.1:62292
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\bertr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+BSP initialization handshake complete.
+INFO  time: connected to build server in 4.69s
+INFO  time: imported build in 0.75s
+INFO  time: indexed workspace in 2.86s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 1.51s
+ERROR Failed to compile 'root-test'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_221\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\bertr\AppData\Local\Temp\metals4891470606971910677\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from C:\Users\bertr\.sbt\1.0\plugins
+INFO  [info] Loading settings for project ropu-module-events-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project
+INFO  [success] Generated .bloop\ropu-module-events-build.json
+INFO  [success] Total time: 4 s, completed Dec 11, 2019 10:26:30 AM
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\root.json
+INFO  [success] Generated .bloop\root-test.json
+INFO  [success] Total time: 10 s, completed Dec 11, 2019 10:26:51 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 43s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 62378'
+The server is listening for incoming connections at tcp://127.0.0.1:62378...
+Accepted incoming BSP client connection at tcp://127.0.0.1:62378
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\bertr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+BSP initialization handshake complete.
+INFO  time: connected to build server in 5.1s
+INFO  time: imported build in 0.87s
+INFO  time: indexed workspace in 1.33s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 0.81s
+ERROR Failed to compile 'root-test'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_221\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\bertr\AppData\Local\Temp\metals1444047383287719801\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from C:\Users\bertr\.sbt\1.0\plugins
+INFO  [info] Loading settings for project ropu-module-events-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\ropu-module-events-build.json
+INFO  [success] Total time: 7 s, completed Dec 11, 2019 11:14:52 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] Set current project to events-module (in build file:/C:/Users/bertr/TI/ropu/ropu-events-module/ropu-module-events/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\root.json
+INFO  [success] Generated .bloop\root-test.json
+INFO  [success] Total time: 12 s, completed Dec 11, 2019 11:15:16 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 1m13s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 57495'
+The server is listening for incoming connections at tcp://127.0.0.1:57495...
+Accepted incoming BSP client connection at tcp://127.0.0.1:57495
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\bertr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+BSP initialization handshake complete.
+INFO  time: connected to build server in 6.04s
+INFO  time: imported build in 2.85s
+INFO  time: indexed workspace in 4.79s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 1.61s
+ERROR Failed to compile 'root-test'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  time: initialize in 1.62s
+INFO  skipping build import with status 'Requested'
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 56638'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project\plugins.sbt
+The server is listening for incoming connections at tcp://127.0.0.1:56638...
+Accepted incoming BSP client connection at tcp://127.0.0.1:56638
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\bertr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 41s
+BSP initialization handshake complete.
+INFO  time: imported build in 6.87s
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+INFO  time: indexed workspace in 30s
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project\plugins.sbt
+  C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\project\plugins.sbt
+INFO  skipping build import with status 'Requested'
+Dec 12, 2019 9:27:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 8.11s
+ERROR Failed to compile 'root-test'

@@ -13,6 +13,7 @@ import scala.collection.mutable
 import java.time.LocalDateTime
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
 
 /**
   * This controller creates an `Action` to handle HTTP requests to the
@@ -77,13 +78,10 @@ class EventsController @Inject()(cc: ControllerComponents)
 
   def createEvent() = Action(parse.json) { request =>
     val date = (request.body \ "date").asOpt[String]
-    val title = (request.body \ "date").asOpt[String]
-    val description = (request.body \ "date").asOpt[String]
+    val title = (request.body \ "title").asOpt[String]
+    val description = (request.body \ "description").asOpt[String]
 
-    if (date.isDefined && LocalDate.parse(
-          date.get,
-          DateTimeFormatter.ofPattern("dd-MM-yyyy")
-        ) != null) {
+    try {
       val event = new Event(
         0,
         Timestamp.valueOf(
@@ -91,11 +89,15 @@ class EventsController @Inject()(cc: ControllerComponents)
             .parse(date.get, DateTimeFormatter.ofPattern("dd-MM-yyyy"))
             .atStartOfDay()
         ),
-        if (title.isDefined) title.get else null,
-        if (description.isDefined) description.get else null
+        if (title.isDefined) title.get else "",
+        if (description.isDefined) description.get else ""
       )
       Ok(eventDAOInstance.createEvent(event).toJson)
-    } else BadRequest("Can't have an event without a date")
-
+    } catch {
+      case e: DateTimeParseException =>
+        BadRequest("Incorrect date format")
+      case e: NoSuchElementException =>
+        BadRequest("Date is required for event")
+    }
   }
 }
