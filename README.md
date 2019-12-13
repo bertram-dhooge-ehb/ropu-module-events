@@ -62,7 +62,7 @@ Unable to find this id
 
 ---
 
-**Request** `PUT /update/id=<id>(/date=<dd-MM-yyyy>/title=<title>/description=<description>)`
+**Request** `PUT /`
 
 Success:
 

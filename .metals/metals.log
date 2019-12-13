@@ -2183,3 +2183,24 @@ INFO: Unsupported notification method: $/setTraceNotification
 INFO  compiling root-test (1 scala source)
 INFO  time: compiled root-test in 8.11s
 ERROR Failed to compile 'root-test'
+INFO  time: initialize in 1.34s
+INFO  skipping build import with status 'Requested'
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 58941'
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+The server is listening for incoming connections at tcp://127.0.0.1:58941...
+Accepted incoming BSP client connection at tcp://127.0.0.1:58941
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\bertr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 32s
+BSP initialization handshake complete.
+INFO  time: imported build in 2.13s
+INFO  time: indexed workspace in 16s
+WARN  no build target: C:\Users\bertr\TI\ropu\ropu-events-module\ropu-module-events\build.sbt
+INFO  compiling root (1 scala source)
+Dec 12, 2019 9:38:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+INFO  time: compiled root in 12s
+Dec 12, 2019 9:40:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Dec 12, 2019 9:58:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
